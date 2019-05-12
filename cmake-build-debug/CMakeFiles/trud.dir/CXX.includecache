@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kekor/trud/main.cpp
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+functional
+-
+
